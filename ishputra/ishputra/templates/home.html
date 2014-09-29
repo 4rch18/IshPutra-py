@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+
+{% block left_content %}
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="img_home">
+                <img src="{{ STATIC_URL }}ishputra/img/harmandir.jpg">
+            </div>
+
+        </div>
+        <div class="col-lg-4">
+            <div class="img_home">
+                <img src="{{ STATIC_URL }}ishputra/img/makka.jpg">
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="img_home">
+                <img src="{{ STATIC_URL }}ishputra/img/mahavir.jpg">
+            </div>
+        </div>
+    </div>
+
+    <div class="row p_hindi_text" style="margin-bottom: 0;padding-bottom: 0;">
+        <div class="col-lg-3" style="margin-top:0;padding-top:0;">
+            <img src="{{ STATIC_URL }}ishputra/img/baba.jpg" style="height:200px;"/>
+        </div>
+        <div class="col-lg-9">
+            <p style="margin-bottom: 0;padding-bottom: 0;">
+            "समस्त विश्व के प्राणी उस परम पिता परमात्मा की सन्तान हैं, पुत्र हैं, जो सर्व समर्थ है, जिसे मैं 'राम' कहता
+            हूँ;
+            कोई रहीम कहता है, तुम कृष्ण कहो या करीम कहकर पुकारो, अल्लाह या गॉड कहने से भी कोई अन्तर नहीं पड़ता। ठीक वैसे
+            ही,
+            जैसे एक पिता के अनेक पुत्र उसे पिता, पापा, अब्बा, बापू, डैडी या फॉदर कह कर किसी भी नाम से पुकारें, वह उनका
+            जनक
+            ही रहेगा। न उसकी कृपा के रूप में अन्तर आएगा, न सन्तान के साथ उसके सम्बन्ध में ही कोई अन्तर पड़ेगा। वहाँ लिंग
+            भेद
+            भी नहीं है, चाहे कोई पुरुष हो, स्त्री हो या नपुंसक हो, सभी उसकी सन्तान हैं, पुत्र हैं और प्रिय भी हैं।"
+        </p>
+            <p>
+                <div style="padding-bottom: 0;margin-bottom: 0;"><span class="text_blue" style="font-weight:bold;">Radhey Shyam Gupt</span> <span style="margin-top: 0;padding-top: 0;">Founder, IshPutra</span></div>
+            </p>
+        </div>
+     </div>
+
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="img_home_2">
+                <img src="{{ STATIC_URL }}ishputra/img/lotustemple.jpg">
+            </div>
+
+        </div>
+        <div class="col-lg-3">
+            <div class="img_home_2">
+                <img src="{{ STATIC_URL }}ishputra/img/church.jpg">
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="img_home_2">
+                <img src="{{ STATIC_URL }}ishputra/img/birlamandir.jpg">
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="img_home_2">
+                <img src="{{ STATIC_URL }}ishputra/img/sarnath.jpg">
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block right_content %}
+
+    {% include 'events_upcoming.html' %}
+
+{% endblock %}
